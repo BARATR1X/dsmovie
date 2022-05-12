@@ -30,7 +30,10 @@ nav a {
 }
 
 .dsmovie-contact-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  column-gap: 3rem;
+  row-gap: 4rem;
   align-items: center;
 
 }
