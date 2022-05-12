@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+header {
+  background-color:  var(--color-primary);
+  color: var(--white);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav a {
+  font-size: 12px;
+  font-weight: 740;
+}
+
+.dsmovie-contact-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.dsmovie-contact-container img {
+  margin-right: 10px;
+}
